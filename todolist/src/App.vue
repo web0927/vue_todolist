@@ -7,15 +7,21 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
-import Header from './components/header.js';
-import Section from './components/section.js';
-import Footer from './components/footer.js';
+import Header from './components/header';
+import Section from './components/section';
+import Footer from './components/footer.vue';
 
 export default {
   name: 'App',
+  data() {
+    return {
+
+    }
+  },
+  methods:{
+    
+  },
   components: {
-    HelloWorld,
     Header,
     Section,
     Footer
