@@ -2,6 +2,7 @@
   <div id="app">
     <Header />
     <Section />
+    <Footer />
   </div>
 </template>
 
@@ -9,13 +10,15 @@
 import HelloWorld from './components/HelloWorld';
 import Header from './components/header.js';
 import Section from './components/section.js';
+import Footer from './components/footer.js';
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
     Header,
-    Section
+    Section,
+    Footer
   }
 }
 </script>
