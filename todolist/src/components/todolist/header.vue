@@ -3,13 +3,11 @@
         <section>
             <label for="title">ToDoList</label>
             <input type="text" id="title" name="title" v-model="lineData" @keyup.enter='btn_addClick' placeholder="添加ToDo" autocomplete="off" />
-            <button class="btn" @click="btn_addClick" >添加</button>
         </section>
     </header>
 </template>
 
 <script>
-import oWatch from '../assets/oWatch.js';
 export default {
     data(){
          return {

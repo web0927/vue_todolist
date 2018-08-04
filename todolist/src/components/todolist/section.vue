@@ -13,7 +13,6 @@
 </template>
 
 <script>
-import oWatch from '../assets/oWatch.js';
 import Slidelist from './slidelist.vue';
 export default {
     data(){

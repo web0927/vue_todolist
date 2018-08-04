@@ -1,15 +1,11 @@
 <template>
   <div id="app">
-    <Header />
-    <Section />
-    <Footer />
+      <GitAll />
   </div>
 </template>
 
 <script>
-import Header from './components/header';
-import Section from './components/section';
-import Footer from './components/footer.vue';
+import GitAll from './components/gitAll.vue';
 
 export default {
   name: 'App',
@@ -22,9 +18,7 @@ export default {
     
   },
   components: {
-    Header,
-    Section,
-    Footer
+      GitAll
   }
 }
 </script>
